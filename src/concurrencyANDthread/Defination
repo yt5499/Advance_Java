@@ -1,0 +1,18 @@
+Concurrency:
+	The system which can do more than one thing at a time. 
+	
+* In java, we work with the concurrency with the help of "PROCESSES & THREAD".
+
+* Processes and Thread:
+	In concurrent programming, there two basic units of execution: Processes and Threads.
+	
+* Process:
+	- A process has a self contained execution environment. It generally has a complete, private set of basic runtime resources
+	  ; in particular, each process has its own memory space.
+	- Process can have multiple threads.
+	
+* Threads:
+	- Threads are sometimes called light-weight processes(mini process). Both processes and thread provide an execution environment,
+	  but creating a new thread requires fewer resources than creating new process.
+	- Threads always exists within the process.
+	- Threads never run in sequence, they run parallel.

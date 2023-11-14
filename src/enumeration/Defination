@@ -1,0 +1,9 @@
+* An enum is a language construct that is used to define type-safe enumerations which can be used when a fixed set of named values
+  is desired.
+
+* An enum type is a special data-type that enables for a variable to be a set of predefined constants.
+
+* Syntax: 
+	public enum weekDays{										//defining like a class
+		SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
+	}

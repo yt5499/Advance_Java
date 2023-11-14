@@ -1,0 +1,19 @@
+* Annotation, a form of metadata, provide data about a program that is not a part of program itself. 
+* In short, to provide short-hand metadata about the program to the java compiler.
+
+* Syntax:
+	public @interface <annotation_name>{	
+	
+	}
+	
+	Also you have to provide,
+	1. When to execute this annotation(@Retention).
+	2. What the annotation type is going to be applied for OR Where this annotation is going to be applied(@Target).
+	
+	Example:
+	
+		@Retention(RetentionPolicy.RUNTIME)		...will be executed during runtime
+		@Target(ElementType.TYPE)				...will be applied to a class
+		public @interface <annotation_name>{	
+	
+		}

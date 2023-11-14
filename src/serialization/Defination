@@ -1,0 +1,3 @@
+* To serialize an object means to convert its state to a byte(data traveling on a network) stream so that the byte stream can 
+  be reverted back into a copy of the object.
+* A java object is serializable if its class or any of its superclasses implements either the interface or its sub-interface
