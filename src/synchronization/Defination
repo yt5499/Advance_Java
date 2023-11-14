@@ -1,0 +1,7 @@
+* If there are two threads accessing same object Thread1 is modifying the object and Thread2 is reading the object,
+  as Thread2 is expecting original state of object, while Thread2 has modified the original object, this situation can create
+  problem, to overcome this problem their concept called,
+  
+* Intrinsic Lock & Synchronization:
+	- When Thread1 is accessing an object and you use Intrinsic Lock & Synchronization then it locks that object for that
+	  perticular thread, therefore no any other thread can access the object at same time.  

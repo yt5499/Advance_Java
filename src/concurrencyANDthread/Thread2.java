@@ -1,5 +1,7 @@
 package concurrencyANDthread;
 
+import synchronization.MathWork;
+
 public class Thread2 implements Runnable{
 
 	@Override
