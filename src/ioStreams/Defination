@@ -1,0 +1,6 @@
+* I/O Streams:
+	- It represents an input(read data) source or an output(write data) destination.
+	
+	* Streams:
+		- You have input source and output destination.
+		- The way input source sends the data to output destination is via streams(converts data in binary form). 

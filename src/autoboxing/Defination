@@ -1,0 +1,4 @@
+* Autoboxing and Unboxing:
+  	- Autoboxing is the automatic conversion that the java compiler makes between the primitive types and their corresponding
+  	  object wrapper class
+  	- When you convert 'int' to 'Integer' it is known as Autoboxing and vice versa Unboxing.
